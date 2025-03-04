@@ -1,5 +1,6 @@
 <script>
 	import TestxBg from '$lib/images/testx-bg.webp';
+	let text = 'Animated Border!';
 </script>
 
 <svelte:head>
@@ -11,13 +12,16 @@
 	/>
 </svelte:head>
 
-<div class="m-5 sm:m-10">
+<div class="my-20 md:my-0"></div>
+
+<div class="mx-4 my-24 md:my-4">
 	<img src={TestxBg} class="m-auto w-full max-w-5xl rounded-md" alt="T E S T X" />
 </div>
-<div class="my-10 text-center">
+<div class="m-10 text-center">
 	<h1 class="text-xl font-semibold">
-		"Kickstart your career in software testing with us and unlock endless opportunities for growth
-		and success."
+		"Kickstart your career in <span class="font-bold text-blue-500">software testing</span>
+		with us and unlock endless opportunities for
+		<span class="font-extrabold text-green-500">growth and success</span>."
 	</h1>
 </div>
 

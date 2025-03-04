@@ -1,5 +1,7 @@
-# T E S T X
+<h1 align="center"> T E S T X </h1>
 
-<img src="src/lib/images/TestxLogo.webp" alt="TESTX Logo" width="30%">
+<p align="center">
+<img src="src/lib/images/TestxLogo.webp" alt="TESTX Logo" width="33%">
+</p>
 
-### "Empowering Future Testers: A Comprehensive Software Testing Education Platform"
+<h2 align="center"> "Empowering Future Testers: A Comprehensive Software Testing Education Platform" </h2>
