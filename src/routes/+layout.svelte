@@ -14,9 +14,7 @@
 		NavUl,
 		NavLi,
 		Dropdown,
-		DropdownItem,
-		Footer,
-		FooterCopyright
+		DropdownItem
 	} from 'flowbite-svelte';
 	import { ChevronDownOutline } from 'flowbite-svelte-icons';
 	let menu = [{ name: 'ISTQB', href: '/ISTQB' }];
@@ -74,6 +72,9 @@
 
 {@render children()}
 
-<Footer>
-	<FooterCopyright href="https://www.smx.tn/" target="_blank" by="SMX™" />
-</Footer>
+<footer>
+	<h1 class="m-auto text-center text-slate-950">
+		© 2025 <a class="font-semibold" href="https://www.smx.tn/" target="_blank">SMX™</a> All Rights
+		Reserved.
+	</h1>
+</footer>
