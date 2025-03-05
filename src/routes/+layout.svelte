@@ -58,7 +58,7 @@
 			on:click={() => {
 				if (checkScreenSize()) toggle();
 			}}
-			href="/"><span class="font-semibold">Download</span></NavLi
+			href="/download"><span class="font-semibold">Download</span></NavLi
 		>
 		<NavLi
 			on:click={() => {
@@ -72,7 +72,7 @@
 
 {@render children()}
 
-<footer>
+<footer class="mt-4">
 	<h1 class="m-auto text-center text-slate-950">
 		© 2025 <a class="font-semibold" href="https://www.smx.tn/" target="_blank">SMX™</a> All Rights
 		Reserved.
