@@ -13,23 +13,11 @@
 	<Accordion>
 		<AccordionItem>
 			<span slot="header">ISTQB Foundation Level Version 4.0</span>
-			<p class="text-gray-500 dark:text-gray-400">
-				Version français <a
-					href="/"
-					target="_blank"
+			<p class="font-semibold text-gray-500 dark:text-gray-400">
+				French version <a
+					href="/ISTQB/Foundation_Level_V4.0_FR"
 					rel="noreferrer"
-					class="text-blue-600 hover:underline dark:text-blue-500"
-				>
-					get started
-				</a>
-			</p>
-			<br />
-			<p class="text-gray-500 dark:text-gray-400">
-				English version <a
-					href="/"
-					target="_blank"
-					rel="noreferrer"
-					class="text-blue-600 hover:underline dark:text-blue-500"
+					class=" text-blue-600 hover:underline dark:text-blue-500"
 				>
 					get started
 				</a>
