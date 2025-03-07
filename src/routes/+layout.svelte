@@ -49,7 +49,7 @@
 				on:click={() => {
 					if (checkScreenSize()) toggle();
 				}}
-				href="/ISTQB">ISTQB</DropdownItem
+				href="/certifications/ISTQB">ISTQB</DropdownItem
 			>
 		</Dropdown>
 
