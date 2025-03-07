@@ -72,7 +72,7 @@
 
 {@render children()}
 
-<footer class="mt-4">
+<footer class="">
 	<h1 class="m-auto text-center text-slate-950">
 		© 2025 <a class="font-semibold" href="https://www.smx.tn/" target="_blank">SMX™</a> All Rights
 		Reserved.
