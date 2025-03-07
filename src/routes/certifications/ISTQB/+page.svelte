@@ -15,7 +15,7 @@
 			<span slot="header">ISTQB Foundation Level Version 4.0</span>
 			<p class="font-semibold text-gray-500 dark:text-gray-400">
 				French version <a
-					href="/ISTQB/Foundation_Level_V4.0_FR"
+					href="/certifications/ISTQB/Foundation_Level_V4.0_FR"
 					rel="noreferrer"
 					class=" text-blue-600 hover:underline dark:text-blue-500"
 				>

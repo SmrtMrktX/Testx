@@ -22,8 +22,8 @@
 			<input id="my-drawer" type="checkbox" class="drawer-toggle" />
 			<div class="drawer-content">
 				<!-- Page content here -->
-				<label for="my-drawer" class="btn btn-primary drawer-button p-6 font-semibold"
-					>Open drawer</label
+				<label for="my-drawer" class="btn btn-primary drawer-button bg-blue-700 p-6 font-extrabold"
+					>Open <i class="fa-solid fa-indent"></i></label
 				>
 			</div>
 			<div class="drawer-side">
@@ -33,6 +33,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div class=" mx-auto mt-10 min-h-screen w-full p-4 text-center">
 		{#if $x === 1}
 			<h1 class="text-2xl font-semibold text-black">Chapitre 1 :</h1>
@@ -53,7 +54,8 @@
 			<h1 class="text-2xl font-semibold">Chapitre 6 :</h1>
 			<Chapitre6 />
 		{:else}
-			<h1 class="text-3xl font-semibold">The End</h1>
+			<h1 class="text-3xl font-bold text-slate-950 italic">Documents</h1>
+			<hr />
 		{/if}
 	</div>
 </div>
