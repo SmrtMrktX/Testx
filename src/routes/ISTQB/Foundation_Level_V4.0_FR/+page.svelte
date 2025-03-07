@@ -35,7 +35,7 @@
 	</div>
 	<div class=" mx-auto mt-10 w-full p-4 text-center">
 		{#if $x === 1}
-			<h1 class="text-2xl font-semibold">Chapitre 1 :</h1>
+			<h1 class="text-2xl font-semibold text-black">Chapitre 1 :</h1>
 			<Chapitre1 />
 		{:else if $x === 2}
 			<h1 class="text-2xl font-semibold">Chapitre 2 :</h1>
