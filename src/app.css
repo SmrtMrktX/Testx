@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-
+@plugin "daisyui";
 @plugin 'flowbite/plugin';
 
 @custom-variant dark (&:where(.dark, .dark *));
@@ -21,4 +21,11 @@
 
 body {
 	background-color: whitesmoke;
+}
+
+.chapitreName {
+	font-size: 1.5rem;
+	font-weight: 900;
+	margin-top: 10px;
+	color: blue;
 }
