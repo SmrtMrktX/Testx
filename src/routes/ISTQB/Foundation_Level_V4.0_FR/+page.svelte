@@ -33,7 +33,7 @@
 			</div>
 		</div>
 	</div>
-	<div class=" mx-auto mt-10 w-full p-4 text-center">
+	<div class=" mx-auto mt-10 min-h-screen w-full p-4 text-center">
 		{#if $x === 1}
 			<h1 class="text-2xl font-semibold text-black">Chapitre 1 :</h1>
 			<Chapitre1 />
