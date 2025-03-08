@@ -37,27 +37,27 @@
 	<div class="mx-auto mt-8 -ml-8 min-h-screen w-full p-4 text-center md:ml-0">
 		{#if $x === 1}
 			<br />
-			<h1 class="text-lg font-bold">Chapitre 1 :</h1>
+			<h1 class="mb-8 text-lg font-bold">Chapitre 1 :</h1>
 			<Chapitre1 />
 		{:else if $x === 2}
 			<br />
-			<h1 class="text-lg font-bold">Chapitre 2 :</h1>
+			<h1 class="mb-8 text-lg font-bold">Chapitre 2 :</h1>
 			<Chapitre2 />
 		{:else if $x === 3}
 			<br />
-			<h1 class="text-lg font-bold">Chapitre 3 :</h1>
+			<h1 class="mb-8 text-lg font-bold">Chapitre 3 :</h1>
 			<Chapitre3 />
 		{:else if $x === 4}
 			<br />
-			<h1 class="text-lg font-bold">Chapitre 4 :</h1>
+			<h1 class="mb-8 text-lg font-bold">Chapitre 4 :</h1>
 			<Chapitre4 />
 		{:else if $x === 5}
 			<br />
-			<h1 class="text-lg font-bold">Chapitre 5 :</h1>
+			<h1 class="mb-8 text-lg font-bold">Chapitre 5 :</h1>
 			<Chapitre5 />
 		{:else if $x === 6}
 			<br />
-			<h1 class="text-lg font-bold">Chapitre 6 :</h1>
+			<h1 class="mb-8 text-lg font-bold">Chapitre 6 :</h1>
 			<Chapitre6 />
 		{:else}
 			<br />

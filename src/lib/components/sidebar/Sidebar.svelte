@@ -10,7 +10,7 @@
 
 <div
 	style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: #eaf8e7;"
-	class="flex min-h-full w-72 flex-col bg-slate-900 py-8 text-base font-semibold md:w-80 md:text-lg xl:w-96 xl:text-xl"
+	class="flex min-h-full w-72 flex-col bg-slate-900 py-8 text-base font-semibold md:w-80 md:text-lg"
 >
 	<button class={myCustomBtn} on:click={() => updateX(1)}>1. Fondamentaux des tests</button>
 	<button class={myCustomBtn} on:click={() => updateX(2)}
