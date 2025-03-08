@@ -24,18 +24,17 @@
 			<div class="drawer-content">
 				<!-- Page content here -->
 				<label for="my-drawer" class="btn btn-primary drawer-button bg-blue-700 p-6 font-extrabold"
-					>Open <i class="fa-solid fa-indent"></i></label
+					><i class="fa-solid fa-indent"></i> Open</label
 				>
 			</div>
 			<div class="drawer-side">
 				<label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-
 				<Sidebar />
 			</div>
 		</div>
 	</div>
 
-	<div class=" mx-auto mt-10 min-h-screen w-full p-4 text-center">
+	<div class="mx-auto mt-8 -ml-8 min-h-screen w-full p-4 text-center md:ml-0">
 		{#if $x === 1}
 			<br />
 			<h1 class="text-lg font-bold">Chapitre 1 :</h1>

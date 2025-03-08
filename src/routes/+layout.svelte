@@ -23,11 +23,14 @@
 <Navbar let:hidden let:toggle>
 	<NavBrand href="/">
 		<img src={testxLogo} class="me-3 h-14 rounded-md sm:h-16" alt="Test X Logo" />
-		<span
-			class="self-center text-xl font-extrabold whitespace-nowrap text-black md:text-2xl dark:text-white"
-			>T E S T X</span
-		>
-		<span class="font-mono text-sm text-green-600"><br /><br />Empowering Future Testers</span>
+		<dl>
+			<dt
+				class="self-center text-xl font-extrabold whitespace-nowrap text-black md:text-2xl dark:text-white"
+			>
+				T E S T X
+			</dt>
+			<dd class="ml-8 font-mono text-sm text-green-600">Empowering Future Testers</dd>
+		</dl>
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
 	<NavUl {hidden}>
