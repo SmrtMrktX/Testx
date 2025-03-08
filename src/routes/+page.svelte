@@ -18,10 +18,10 @@
 		<img src={TestxBg} class="m-auto w-full max-w-5xl rounded-md" alt="T E S T X" />
 	</div>
 	<div class="mx-5 my-10 text-center lg:my-8">
-		<h1 class="text-xl leading-8 font-semibold text-black md:text-2xl">
-			"Kickstart your career in <span class="font-bold text-blue-500">software testing</span>
+		<h1 class="text-xl leading-8 font-bold text-black md:text-2xl">
+			"Kickstart your career in <span class="font-extrabold text-blue-800">software testing</span>
 			with us and unlock endless opportunities for
-			<span class="font-extrabold text-green-500">growth and success</span>."
+			<span class="font-extrabold text-green-700">growth and success</span>."
 		</h1>
 	</div>
 </div>

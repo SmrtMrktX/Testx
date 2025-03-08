@@ -22,11 +22,12 @@
 
 <Navbar let:hidden let:toggle>
 	<NavBrand href="/">
-		<img src={testxLogo} class="me-3 h-14 rounded-2xl sm:h-16" alt="Test X Logo" />
-		<span class="self-center text-2xl font-extrabold whitespace-nowrap text-black dark:text-white"
+		<img src={testxLogo} class="me-3 h-14 rounded-md sm:h-16" alt="Test X Logo" />
+		<span
+			class="self-center text-xl font-extrabold whitespace-nowrap text-black md:text-2xl dark:text-white"
 			>T E S T X</span
 		>
-		<span class="text-sm text-green-600"><br /><br />Empowering Future Testers</span>
+		<span class="font-mono text-sm text-green-600"><br /><br />Empowering Future Testers</span>
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
 	<NavUl {hidden}>
@@ -49,7 +50,7 @@
 				on:click={() => {
 					if (checkScreenSize()) toggle();
 				}}
-				href="/certifications/ISTQB">ISTQB</DropdownItem
+				href="/certifications/ISTQB">ISTQB (CTFL)</DropdownItem
 			>
 		</Dropdown>
 
