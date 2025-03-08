@@ -7,12 +7,12 @@
 </h1>
 
 <div>
-	<h2 class="mb-8 text-center text-xl font-semibold underline">ISTQB Foundation Level</h2>
+	<h2 class="mb-8 text-center text-xl font-semibold underline">ISTQB (CFTL) Foundation Level</h2>
 </div>
 <div class="mx-8 my-10 max-w-3xl bg-green-100 md:mx-auto">
 	<Accordion>
 		<AccordionItem>
-			<span slot="header">ISTQB Foundation Level Version 4.0</span>
+			<span slot="header">ISTQB (CFTL) Foundation Level Version 4.0</span>
 			<p class="font-semibold text-gray-500 dark:text-gray-400">
 				French version <a
 					href="/certifications/ISTQB/Foundation_Level_V4.0_FR"
@@ -27,7 +27,7 @@
 </div>
 
 <div class="container m-auto">
-	<h1>ISTQB Foundation Level Certification:</h1>
+	<h1>ISTQB (CFTL) Foundation Level Certification:</h1>
 
 	<h2 class="mt-6 pb-2 text-2xl font-extrabold underline">Who is it for?</h2>
 
