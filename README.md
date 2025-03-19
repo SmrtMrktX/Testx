@@ -5,3 +5,7 @@
 </p>
 
 <h2 align="center"> "Empowering Future Testers: A Comprehensive Software Testing Education Platform" </h2>
+
+```bash
+~$ deploy
+```
